@@ -1,0 +1,952 @@
+/***********************************orlando*****************************/
+/********************mio*************************/
+.centrar{
+text-align: center;
+
+}
+.iconos{
+margin-top: 10%;
+margin-left: 10%;
+}
+.margenfoter{
+
+margin-bottom: 8%;
+position-bottom: fixed;
+
+
+}
+.margenfoter1{
+
+margin-bottom: 5%;
+position-bottom: fixed;
+
+
+}
+
+/***********************************/
+/*============================================ BARRA DE NAVEGACION ============================================*/
+.barraNav
+{
+	background-color: #240100 !important;
+	color: #FFE6E5 !important;
+    float: right;
+
+}
+.logo-header
+{
+	max-height: 40%;
+	max-width: 40%;
+	
+}
+
+/*----------------------- MODAL ---------------------*/
+a{
+    color:#240100;
+    text-decoration: none;
+}
+.tituloModal{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    font-variant:small-caps;
+}
+.login{
+    
+    margin: 0px 10px 0px 0px !important;
+}
+
+.modalColorBoton{
+   
+    background-color:  #01172f;
+    color: #dee5e5;
+    
+}
+ .loginModal{
+
+ 	/*background-color: #dee5e5;*/
+     background-image: url(http://www.mychef.cat/img/ribete3.png);
+     background-size:contain;
+     background-repeat: round;
+     padding: 50px 60px 0px 60px;
+     color:#01172f;
+ }
+ .loginModal2{
+
+ 	/*background-color: #dee5e5;*/
+     background-image: url(http://www.mychef.cat/img/ribete.png);
+     background-size:contain;
+     background-repeat: round;
+     padding: 50px 60px 0px 60px;
+     color:#01172f;
+ }
+ .loginModalCaja{
+ 	width: 70%;
+ }
+ .loginInput{
+    
+ 	background-color: #EFEDED;
+ 	color: #01172f;
+ 	margin-top: 5px;
+ 	margin-right: 20px;
+ 	height: 100%;
+ 	width: 100%
+ }
+ .loginLabel{
+ 	margin-top: 10px;
+ }
+
+/*============================================  CABECERA ============================================*/
+.fondo2 {
+  background-image: url("http://www.mychef.cat/img/fondo4.jpg");
+  background-attachment: fixed;
+  background-size:contain;
+  /*height: auto;
+  width: 100%;*/
+  background-repeat: no-repeat;
+}
+
+.TituloCaja {
+    z-index: 50;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: rgba(250,250,250,.5);
+    
+    max-height: 500px;
+}
+
+.Cabeza{
+ 	 
+ 	width: 100%;
+ 	height:  550px;
+    
+}
+.TituloLetras{
+
+  color:#240100;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);   
+    text-align:center;
+    font-family: impact;
+    font-variant:small-caps;
+    font-size: 150px;
+   
+}
+.Subtitulo{
+
+  color:#771d14;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);   
+    text-align:center;
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+.destacado{
+   color:#771d14; 
+}
+.borde{
+    border: 2px solid #771d14;
+    
+}
+
+
+/*---------------CSS del boton Login Fuente: https://css-tricks.com/examples/ButtonMaker/#--------
+.loginButon  {
+	margin-top: 2px;
+   border-top: 1px solid #545454;
+   background: #030303;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c9c9c), to(#030303));
+   background: -webkit-linear-gradient(top, #9c9c9c, #030303);
+   background: -moz-linear-gradient(top, #9c9c9c, #030303);
+   background: -ms-linear-gradient(top, #9c9c9c, #030303);
+   background: -o-linear-gradient(top, #9c9c9c, #030303);
+   padding: 10px 20px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: Tahoma;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.loginButon:hover {
+   border-top-color: #030303;
+   background: #030303;
+   color: #bfbdbf;
+   }
+.loginButon:active {
+   border-top-color: #7d7d7d;
+   background: #7d7d7d;
+   }
+
+*/
+ /*============================================  Seccion Primera ====================================*/
+.sombradiv{
+    width: 90%;
+    height: auto;
+    box-shadow:1px 1px 1px rgba(0,0,0,.1),
+               3px 3px 3px rgba(0,0,0,.1),
+               5px 5px 5px rgba(0,0,0,.3),
+               7px 7px 7px rgba(0,0,0,.2),
+               9px 9px 9px rgba(0,0,0,.25),
+               11px 11px 11px rgba(0,0,0,.2),
+               15px 15px 15px rgba(0,0,0,.15);  
+}
+.cajita1{
+    padding-top: 0px;
+    /*padding-bottom: 40px;*/
+    background-color: #dee5e5;
+    height: 100%;
+    width: 100%;
+    color: #01172f;
+}
+.texto1{
+    color:#240100;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.sombratexto{
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1),
+               3px 3px 3px rgba(0,0,0,.1),
+               5px 5px 5px rgba(0,0,0,.3),
+               7px 7px 7px rgba(0,0,0,.2),
+               9px 9px 9px rgba(0,0,0,.25),
+               11px 11px 11px rgba(0,0,0,.2),
+               15px 15px 15px rgba(0,0,0,.15); 
+}
+.TituloLetras2{
+    color:#240100;
+    font-weight: bold;
+    font-size:30px;
+}
+.TituloLetras3{
+    color:#240100;
+    font-weight: bold;
+    font-variant:small-caps;
+    font-size:40px;
+}
+
+.conpaddingopcion1{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+
+.bordeimg{
+    border: 7px solid #01172f;
+    margin-top: 20px;
+}
+.bordeimg2{
+    border: 7px solid #240100;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+hr{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #01172f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        
+}
+/*----------------------- VIEWS ---------------------*/
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #240100;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+   /* background: #fff url(../images/bgimg.jpg) no-repeat center center
+*/
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+     
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view img {
+    display: block;
+    position: relative;
+    width : 100%;
+    height: 100%
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #dee5e5;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(36, 1, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+    color: #dee5e5;
+    padding: 0px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #240100;
+    color: #dee5e5;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #771d14;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #771d14;
+}
+.view-third img {
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.view-third .mask {
+   background-color: rgba(36,1,0,0.6);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transform: translate(460px, -100px) rotate(180deg);
+   -moz-transform: translate(460px, -100px) rotate(180deg);
+   -o-transform: translate(460px, -100px) rotate(180deg);
+   -ms-transform: translate(460px, -100px) rotate(180deg);
+   transform: translate(460px, -100px) rotate(180deg);
+   -webkit-transition: all 0.2s 0.4s ease-in-out;
+   -moz-transition: all 0.2s 0.4s ease-in-out;
+   -o-transition: all 0.2s 0.4s ease-in-out;
+   -ms-transition: all 0.2s 0.4s ease-in-out;
+   transition: all 0.2s 0.4s ease-in-out;
+}
+.view-third h2 {
+   -webkit-transform: translateY(-100px);
+   -moz-transform: translateY(-100px);
+   -o-transform: translateY(-100px);
+   -ms-transform: translateY(-100px);
+   transform: translateY(-100px);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-third p {
+   -webkit-transform: translateX(300px) rotate(90deg);
+   -moz-transform: translateX(300px) rotate(90deg);
+   -o-transform: translateX(300px) rotate(90deg);
+   -ms-transform: translateX(300px) rotate(90deg);
+   transform: translateX(300px) rotate(90deg);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-third a.info {
+   -webkit-transform: translateY(-200px);
+   -moz-transform: translateY(-200px);
+   -o-transform: translateY(-200px);
+   -ms-transform: translateY(-200px);
+   transform: translateY(-200px);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-third:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+   -webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+   -o-transform: translate(0px, 0px);
+   -ms-transform: translate(0px, 0px);
+   transform: translate(0px, 0px);
+}
+.view-third:hover h2 {
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+   -webkit-transition-delay: 0.5s;
+   -moz-transition-delay: 0.5s;
+   -o-transition-delay: 0.5s;
+   -ms-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+.view-third:hover p {
+   -webkit-transform: translateX(0px) rotate(0deg);
+   -moz-transform: translateX(0px) rotate(0deg);
+   -o-transform: translateX(0px) rotate(0deg);
+   -ms-transform: translateX(0px) rotate(0deg);
+   transform: translateX(0px) rotate(0deg);
+   -webkit-transition-delay: 0.4s;
+   -moz-transition-delay: 0.4s;
+   -o-transition-delay: 0.4s;
+   -ms-transition-delay: 0.4s;
+   transition-delay: 0.4s;
+}
+.view-third:hover a.info {
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+   -webkit-transition-delay: 0.3s;
+   -moz-transition-delay: 0.3s;
+   -o-transition-delay: 0.3s;
+   -ms-transition-delay: 0.3s;
+   transition-delay: 0.3s;
+}
+ /*============================================  Seccion Segunda ====================================*/
+.vacio{
+	height: 350px;
+	z-index: -9;
+	/*position: relative;
+	top: -60px;*/
+}
+.fondo3 {
+    background-image: url("http://www.mychef.cat/img/fondo3.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.descubre{
+    margin-top: 110px;
+    text-align: center;
+    color: #240100;
+    font-weight:900;
+    font-family: fantasy !important;
+    background-color: rgba(250,250,250,.4); 
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.descubre h1{
+    font-family: impact !important;
+    font-weight:900  !important;
+}
+
+
+.contenidoTexto{
+    align-content: center !important;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #e2dadb !important;
+
+    
+}
+.degradado{
+    background-image: url(http://www.mychef.cat/img/degradado2.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+	
+}
+
+.tablaCentro{
+    
+    padding-top: 17px !important;
+    padding-bottom: auto !important;
+  
+    
+}
+.tabla{
+  margin-top: 50px;
+}
+.ribete{
+   /* width: 80%;*/
+    height: 200% ;
+}
+
+ /*============================================ CSS Genericas ====================================*/
+
+.nopadding{
+   padding: 0px !important; 
+}
+.nomargin{
+    margin: 0px !important; 
+}
+.centrado{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+.centrado2{
+    margin: 10px auto;
+    float: none !important;
+}
+.centrado3{
+    margin: 10px auto;
+    float: none !important;
+    position: relative;
+    top:30%;
+}
+.padding20{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*============================================== RESPONSIVES ====================================*/
+/**/
+@media (max-width: 479px) {
+
+    .loginModalCaja{
+        width: 100%;
+    }
+    .fondo2 {
+        background-image: url("http://www.mychef.cat/img/fondo4.jpg");
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+    .Cabeza{
+ 	 
+        width: 100%;
+        height:  370px !important;
+    
+    }
+    .TituloCaja {
+        z-index: 50;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: 0px !important;
+        background-color: rgba(250,250,250,.5);
+
+        max-height: 500px;
+    }
+
+    .TituloLetras{
+
+        color:#240100;
+        text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);   
+        text-align:center;
+        font-family: fantasy;
+        font-variant:small-caps;
+        font-size: 80px !important;
+   
+    }
+    .Subtitulo{
+
+        color:#771d14;
+        text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);   
+        text-align:center;
+        font-family: fantasy;
+        font-size: 30px !important;
+    
+    }
+    .texto1{
+        color:#240100;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px !important;
+    
+    }
+    .TituloLetras2{
+        color: #e2dadb !important;
+        font-weight: bold;
+        font-size:15px !important;
+    }
+    .TituloLetras3{
+        color: #e2dadb !important;
+        font-weight: bold;
+        font-variant:small-caps;
+        font-size:25px !important;
+    }
+    .contenidoTexto{
+        align-content: center !important;
+        font-size: 15px !important;
+        text-align: center;
+        font-weight: bold;
+        color: #e2dadb !important;
+    }
+    .cajaribete{
+        position: relative;
+        top: -500px;
+       /* visibility: hidden;*/
+        z-index: -99;
+    }
+    .ribete{
+        position: relative;
+        top: -500px;
+       visibility: hidden;
+        z-index: -99;
+        width: 1%;
+            
+    }
+   .conpaddingopcion1{
+        padding-left: 20px;
+        padding-top: 25px;
+       
+    }
+    
+    .menosM{
+        margin-left: 90% !important;
+        margin-left: -5px !important;
+    }
+    .menosM2{
+        margin-left: -40px !important;
+        padding: 5px;
+    }
+
+}
+/*******************************************************************************/
+@media (min-width: 480px) and (max-width: 767px) {
+    
+    .loginModalCaja{
+        width: 100%;
+    }
+    .fondo2 {
+        background-image: url("http://www.mychef.cat/img/fondo4.jpg");
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .Cabeza{
+ 	 
+        width: 100%;
+        height:  360px !important;
+    
+    }
+    .TituloCaja {
+        z-index: 50;
+        margin-top: 150px;
+        margin-bottom: 40px;
+        margin-left: 0px !important;
+        background-color: rgba(250,250,250,.5);
+
+        max-height: 500px;
+    }
+
+    .TituloLetras{
+
+        color:#240100;
+        text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);   
+        text-align:center;
+        font-family: fantasy;
+        font-variant:small-caps;
+        font-size: 90px !important;
+   
+    }
+    
+    .Subtitulo{
+
+        color:#771d14;
+        text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);   
+        text-align:center;
+        font-family: fantasy;
+        font-size: 30px !important;
+    
+    }
+    .texto1{
+        color:#240100;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px !important;
+    
+     }
+    .conpaddingopcion1{
+        padding-left: 20px;
+        padding-top: 25px;
+       
+    }
+    .TituloLetras2{
+        color: #e2dadb !important;
+        font-weight: bold;
+        font-size:15px !important;
+    }
+    .TituloLetras3{
+        color: #e2dadb !important;
+        font-weight: bold;
+        font-variant:small-caps;
+        font-size:25px !important;
+    }
+    .contenidoTexto{
+        align-content: center !important;
+        font-size: 18px !important;
+        text-align: center;
+        font-weight: bold;
+        color: #e2dadb !important;
+    }
+     .cajaribete{
+        position: relative;
+        top: -500px;
+       /* visibility: hidden;*/
+        z-index: -99;
+    }
+    .ribete{
+        position: relative;
+        top: -500px;
+       /* visibility: hidden;*/
+        z-index: -99;
+        width: 1%;
+      
+    }
+    .conpaddingopcion1{
+        padding-left: 20px;
+        padding-right: 20px;
+      /*  padding-top: 80px;*/
+       
+    }
+    
+    .menosM{
+        max-width: 90%;
+        margin-left: -5px !important;
+        
+    }
+    .menosM2{
+        margin-left: -40px !important;
+        padding: 5px;
+    }
+
+
+
+}
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .Cabeza{
+ 	 
+        width: 100%;
+        height:  500px !important;
+    
+    }
+    .TituloLetras{
+
+        color:#240100;
+        text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);   
+        text-align:center;
+        font-family: fantasy;
+        font-variant:small-caps;
+        font-size: 115px !important;
+   
+    }
+    .Subtitulo{
+
+        color:#771d14;
+        text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);   
+        text-align:center;
+        font-family: fantasy;
+        font-size: 40px;
+    
+    }
+    .TituloLetras2{
+        color: #e2dadb !important;
+        font-weight: bold;
+        font-size:20px !important;
+}
+    .TituloLetras3{
+        color: #e2dadb !important;
+        font-weight: bold;
+        font-variant:small-caps;
+        font-size:35px !important;
+    }
+    .contenidoTexto{
+        align-content: center !important;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: #e2dadb !important;
+    }
+    
+    .ribete{
+        width: 120%;
+        height: auto;
+        margin-top: 60px !important;
+    }
+    .conpaddingopcion1{
+        padding-left: 70px;
+        padding-top: 80px ;
+       
+    }
+    
+    .menosM{
+        margin-left: -10px !important;
+    }
+    .menosM2{
+        margin-left: -40px !important;
+        padding: 5px;
+    }
+
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) and (max-width: 1199px){
+    .loginModalCaja{
+        width: 60%;
+    }
+    .fondo2 {
+        background-image: url("http://www.mychef.cat/img/fondo4.jpg");
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .TituloLetras2{
+        color:#240100;
+        font-weight: bold;
+        font-size:25px;
+    }
+    .TituloLetras3{
+        color:#240100 !important;
+        font-weight: bold;
+        font-variant:small-caps;
+        font-size:35px;
+    }
+    .menosM{
+        margin-left: -10px !important;
+    }
+    .menosM2{
+        margin-left: -27px !important;
+    }
+
+
+}
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+@media (min-width: 1200px) { 
+    .loginModalCaja{
+        width: 50%;
+    }
+    .cajita1{
+        margin-left: -20px;
+        background-color: #dee5e5;
+        height: auto;
+        width: auto%;
+
+    }
+    
+    .fondo2 {
+        background-image: url("http://www.mychef.cat/img/fondo4.jpg");
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+
+}
+

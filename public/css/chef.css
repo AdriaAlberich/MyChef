@@ -1,0 +1,448 @@
+/*=========================================== GENERICAS ====================================================*/
+@font-face
+{
+   font-family: "CHOPS";
+   src: url("(http://www.mychef.cat/fonts/CHOPS.ttf");
+       
+}
+
+
+body{
+    background-color: #F2F2F2;
+    margin:0px !important;
+    padding:0px !important;
+
+}
+
+.cargadorImg{
+    border:2px solid #240100 !important;
+    width: 200px;
+    height: 200px;
+}
+
+.padding10{
+    padding:10px;
+}
+
+.padding20{
+    padding:20px;
+}
+.padding45{
+    padding:20px;
+}
+
+.botonOK{
+    background-color: #240100 !important;
+    color: white;
+    cursor: pointer;
+}
+
+.centrado{
+    display: table;
+    margin-left: auto !important;
+    margin-right: auto !important;
+      
+}
+
+.centrado2{
+    margin: 10px auto;
+    float: none !important;
+}
+
+.centrado3{
+    margin: 0px auto;
+    float: none !important;
+    position: relative;
+    
+}
+
+.centrado4{
+    margin: 100px auto;
+    float: none !important;
+    position: relative;
+    
+}
+
+.posicionEditImgPerfil{
+    position: relative;
+    top:-30px;
+    left:-30px;
+}
+
+.hChef{
+    font-size: 16pt;
+    color:#A4A4A4;
+    border-bottom:1px solid #A4A4A4;
+}
+
+.v, label .btn{
+    cursor: pointer;
+}
+
+.tituloModal {
+    color: #FE9A2E !important;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.notificacion {
+    position:fixed !important; 
+    right: 2% !important; 
+    top: 10% !important; 
+    z-index:9999999 !important;
+}
+
+/*=========================================== NAV ====================================================*/
+.barraNav
+{
+    background-color: #240100 !important;
+    color: #FFE6E5 !important;
+    float: right;
+    /*opacity: 0.9;*/
+}
+
+.logo-header
+{
+    max-height: 40%;
+    max-width: 40%;
+    
+}
+
+.elementoMenu a:hover{
+    background-color: #240100 !important;
+    color: #FFE6E5 !important;
+}
+
+.elementoMenu a:focus {
+    background-color: #240100 !important;
+    color: #FFE6E5 !important;
+    
+}
+
+.navbar-inverse .navbar-nav > .open > a {
+    background-color: #ff794d !important;
+    color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff !important;
+}
+
+.navbar-brand:hover {
+    color: #fff !important;
+    text-decoration:none !important;
+}
+
+/*=========================================== FOOTER ====================================================*/
+
+.footer {
+    color: #fff !important;
+    background-color: #240100 !important;
+    width:100%;
+    height:2%;
+    border-top: 2px solid white;
+}
+
+.footer a {
+    color: #fff !important;
+    text-decoration:none !important;
+}
+
+.footer a:hover {
+    color: #fff !important;
+    text-decoration:underline !important;
+}
+
+#metodosPagoFooter {
+    height: 50px;
+    width:auto;
+}
+
+/*=========================================== PANEL ADMIN ====================================================*/
+
+.acciones {
+    width:50px;
+}
+
+
+/*=========================================== SECCION PERFIL ====================================================*/
+
+.fotoChef{
+    background-image: url(http://www.mychef.cat/img/fotocentralchef.jpg);
+    
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 5px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.fotoperfil{
+    /*background-image: url(../img/cara.jpg);*/
+    background-size: contain;
+    border:4px solid #240100;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius:90px;
+    border-bottom-right-radius:90px;
+    position: relative;
+    top:-40px;
+    left:-40px;
+    -webkit-box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+
+}
+.caixaPerfil{
+    
+    /*border:2px solid #A4A4A4;*/
+    /*border-radius:5px;*/
+    height: auto;
+
+}
+.estrellas{
+    margin-bottom: 20px;
+}
+.ec-stars-wrapper {
+    
+    font-size: 0px;
+    display: inline-block;
+}
+.ec-stars-wrapper a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 90px;
+    font-size: 5rem;
+    color: #888;
+    cursor: pointer;
+}
+
+.ec-stars-wrapper:hover a {
+    color:  #240100;
+}
+.star_color{
+    color:  #240100 !important;
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+    color: #888;
+}
+.granate{
+    color:  #240100;
+}
+.gris{
+    color: #888;
+}
+.editaPerfil{
+    display: inline-block;
+    float: right;
+}
+.alerta{
+    border:1px solid #240100;
+    border-radius:10px;
+    z-index: 999;
+    position: relative;    
+    /*top: 0px;
+    right: 50px;*/
+    background-color: white;
+    padding: 15px;
+    color:black;
+    font-weight: bold;
+    margin-bottom: -50px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    
+}
+
+/*=========================================== SECCION SOBRE_MI ====================================================*/
+.caixaSobreMi{
+    
+    border:3px solid #240100;
+    border-radius:10px;
+    height: 40px;
+    background-color: white;
+    height: auto;
+    margin-bottom: 50px;
+    position: relative;
+    top: -20px;
+    right: -20px;
+    -webkit-box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    box-shadow: 10px 10px 59px -4px rgba(0,0,0,0.45);
+    padding: 20px;
+
+}
+.editaImgPerfil{
+    float: right;
+}
+
+/*=========================================== RESTO DE SECCIONES ====================================================*/
+
+.caixa{
+    border:3px solid #240100;
+    border-radius:10px;
+    height: 40px;
+    background-color: white;
+    height: auto;
+}
+
+/*==================================== SECCION MENU ====================================*/
+
+.cargadorImgMenus{
+    border:2px solid #240100 !important;
+    width: 270px !important;
+    height: 200px;
+}
+.posicionEditMenus{
+   /* position: relative;
+    top:-30px;
+    left:-30px;*/
+}
+.editaImgMenus{
+    float: right;
+}
+.caixmenu{
+    margin: 10PX;
+    border: 1px solid #A4A4A4;
+    height: 200px;
+    width: 250px;
+    border-radius:10px;
+    background-color: #E6E6E6;
+    
+}
+
+.tituloSobreMenu{
+    background-color: rgb(250, 250, 250, 0.8);
+    position: relative;
+    bottom: -100px;
+}
+.imagenvino{
+    height: 150px;
+    width: auto;
+}
+.caixaVinos{
+    margin: 10PX;
+    border: 2px solid #A4A4A4;
+    border-radius:10px;
+    background-color: #E6E6E6;
+   border:1px solid #240100;
+    
+}
+.textoVinos{
+    margin-top: 5px;
+}
+.textoVinos h3{
+    text-align: center;
+    font-weight: bold;
+    color: #240100;
+}
+.textoVinos input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modalFondoMenus{
+    background-color: rgb(214, 210, 210);
+    color: #240100;
+    font-family: "SCRIPTALT";
+}
+.modalImgFondo{
+    background-image: url(http://www.mychef.cat/img/ribete2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.platos {
+    
+    font-style: italic;
+    text-align: center;
+}
+
+.modaltitle{
+    font-weight: bold;
+    text-align: center;
+}
+.editaMenu{
+    float: right;
+}
+.botonMenus{
+    padding-top: 10px;
+}
+.editaVinos{
+    background-color: #A4A4A4;
+    color: #240100;
+}
+/*==================================== SECCION GALERIA ====================================*/
+.modalGaleria{
+    margin:20px !important;
+}
+.editaImgGaleria{
+    float: right;
+}
+.cargadorImgModal{
+    border:2px solid #240100 !important;    
+}
+
+.generalfotos{
+    height:210px;
+    margin-top:10px;
+    margin-bottom:7px;
+}
+
+.elementos{
+    /*height: 40px;*/
+    border-right: 1px solid #A4A4A4;
+    border-left: 1px solid #A4A4A4;
+    border-top: 1px solid #A4A4A4;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin: auto;
+}
+.noactivo{
+    background-color: #E6E6E6;
+    border-bottom: 1px solid #A4A4A4;
+}
+.contingut{
+    
+    border-right: 1px solid #A4A4A4;
+    border-left: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+
+}
+
+.carro{
+    padding-top: 50px;
+}
+.imagenCarro{
+    max-height:50px !improtant;
+    width: auto;
+}
+.imgGaleria{
+    margin: 8px !important;
+    border-radius: 5px;
+}
+#links, #video{
+    padding-top: 50px; 
+    padding-left: 2px;
+}
+.modal-body-Gallery{
+    margin-top: 200px;
+}
+/*==================================== SECCION COMENTARIOS ====================================*/
+
+.form-group-margenes{
+    margin: 10px;
+}
+
+
+
+
+

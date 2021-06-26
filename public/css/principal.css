@@ -1,0 +1,83 @@
+
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+ border: 2px solid #771d14;
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+* {
+	
+	margin:0px;
+	padding:0px;
+
+}
+
+.barraNav
+{
+	background-color: #240100 !important;
+	color: #FFE6E5 !important;
+    float: right;
+
+}
+.colora{
+color: white !important;
+	font-size: 14pt !important;
+
+}
+
+.borde{
+    border: 2px solid #771d14;
+    
+}
+
+.texto1{
+    color:#240100;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.foto{
+	/*background-image:url("../img/buscar3.jpg");*/
+	background-position: center;
+	background-repeat:no-repeat;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-left-radius: 5px;
+
+	border-bottom-right-radius:5px;
+}
+p{
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.generalfotos{
+height:110px;
+margin-top:7px;
+margin-bottom:7px;
+}
+
+
+
+
+
+
+
+
